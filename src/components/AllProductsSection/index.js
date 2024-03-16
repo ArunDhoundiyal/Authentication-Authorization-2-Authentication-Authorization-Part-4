@@ -58,6 +58,9 @@ class AllProductsSection extends Component {
     }
   }
 
+  // this.setState({property1: value1,...}, callbackFunction)
+  // The setState() is asynchronous, it takes an optional callback parameter that can be used to make updates after the state is changed.
+
   updateActiveOptionId = activeOptionId => {
     this.setState({activeOptionId})
     this.getProducts()
